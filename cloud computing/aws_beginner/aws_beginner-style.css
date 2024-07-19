@@ -7,7 +7,7 @@ body {
 
 .display-3 {
     font-size: 3.5rem;
-    color: #0077B5; /* LinkedIn Blue */
+    color: #FF9900; /* LinkedIn Blue */
     font-weight: 700;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1); 
 }
@@ -51,7 +51,7 @@ body {
 
 .card-title {
     font-size: 1.75rem; 
-    color: #0077B5; /* LinkedIn Blue */
+    color: #FF9900; /* LinkedIn Blue */
     font-weight: 500; 
     margin-bottom: 15px; 
 }
@@ -63,7 +63,7 @@ body {
 }
 
 .btn-primary {
-    background-color: #0077B5; /* LinkedIn Blue */
+    background-color: #FF9900; /* LinkedIn Blue */
     border: none;
     padding: 10px 20px;
     font-size: 1rem; 
@@ -72,7 +72,7 @@ body {
 }
 
 .btn-primary:hover {
-    background-color: #005f79; /* Darker LinkedIn Blue for hover effect */
+    background-color: #FF9900; /* Darker LinkedIn Blue for hover effect */
     transform: scale(1.05); 
 }
 
