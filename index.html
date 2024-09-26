@@ -4,63 +4,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vishal Tyagi | Articles</title>
+    <title>Vishal Tyagi | Insights</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="style.css" rel="stylesheet">
     <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
-    <div class="container mt-5">
-        <div class="text-center mb-5">
-            <h1 class="display-3">Insights</h1>
-            <p class="lead">Explore the latest articles and updates</p>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-                <a href="self-development/unveiling.html" class="card custom-card">
-                    <img src="assets/images/unveiling the self.jpg" class="card-img-top" alt="AWS Article 3">
-                    <div class="card-body">
-                        <h5 class="card-title">Unveiling The Self</h5>
-                        <p class="card-text">Enhance your knowledge by delving into these articles on various topics.
-                        </p>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-4">
-                <a href="technology/technology.html" class="card custom-card">
-                    <img src="assets/images/tech.jpg" class="card-img-top" alt="AWS Article 1">
-                    <div class="card-body">
-                        <h5 class="card-title">Technology</h5>
-                        <p class="card-text">Explore the unseen mechanics behind everyday technology and some fun with
-                            code</p>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-4">
-                <a href="cloud computing/cloud_computing.html" class="card custom-card">
-                    <img src="assets/images/cloud computing.jpg" class="card-img-top" alt="AWS Article 2">
-                    <div class="card-body">
-                        <h5 class="card-title">Cloud Computing</h5>
-                        <p class="card-text">Find guides on using cloud resources and projects to enhance your cloud
-                            learning journey.</p>
-                    </div>
-                </a>
+    <header class="bg-light py-5">
+        <div class="container">
+            <div class="text-center">
+                <h1 class="display-3">Insights</h1>
+                <p class="lead">Explore the latest articles and updates from Vishal Tyagi</p>
             </div>
         </div>
-    </div>
+    </header>
 
-    <!-- Footer -->
-    <footer class="footer mt-5">
-            <!-- LinkedIn badge -->
-            <div target = "_blank" class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL"
-                data-vanity="vishal0210" data-version="v1"><a class="badge-base__link LI-simple-link"
-                    href="https://in.linkedin.com/in/vishal0210?trk=profile-badge">Vishal Tyagi</a>
+    <main class="container mt-5">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <article class="card h-100">
+                    <img src="assets/images/unveiling-the-self.jpg" class="card-img-top" alt="Unveiling The Self">
+                    <div class="card-body d-flex flex-column">
+                        <h2 class="card-title h5">Unveiling The Self</h2>
+                        <p class="card-text">Enhance your knowledge by delving into these articles on various self-development topics.</p>
+                        <a href="self-development/unveiling.html" class="btn btn-primary mt-auto">Read More</a>
+                    </div>
+                </article>
             </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <article class="card h-100">
+                    <img src="assets/images/tech.jpg" class="card-img-top" alt="Technology">
+                    <div class="card-body d-flex flex-column">
+                        <h2 class="card-title h5">Technology</h2>
+                        <p class="card-text">Explore the unseen mechanics behind everyday technology and some fun with code.</p>
+                        <a href="technology/technology.html" class="btn btn-primary mt-auto">Discover More</a>
+                    </div>
+                </article>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <article class="card h-100">
+                    <img src="assets/images/cloud-computing.jpg" class="card-img-top" alt="Cloud Computing">
+                    <div class="card-body d-flex flex-column">
+                        <h2 class="card-title h5">Cloud Computing</h2>
+                        <p class="card-text">Find guides on using cloud resources and projects to enhance your cloud learning journey.</p>
+                        <a href="cloud-computing/cloud-computing.html" class="btn btn-primary mt-auto">Learn More</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer mt-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
+                    <p>&copy; 2024 Vishal Tyagi. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-right">
+                    <a href="https://linkedin.com/in/vishal0210" class="social-icon" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-linkedin" aria-hidden="true"></i>
+                        <span class="sr-only">LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/yourusername" class="social-icon" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                        <span class="sr-only">GitHub</span>
+                    </a>
+                    <a href="mailto:your.email@example.com" class="social-icon">
+                        <i class="fas fa-envelope" aria-hidden="true"></i>
+                        <span class="sr-only">Email</span>
+                    </a>
+                </div>
+            </div>
+        </div>
     </footer>
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
