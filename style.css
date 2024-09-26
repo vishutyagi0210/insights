@@ -1,0 +1,125 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333; /* Adjusted for readability */
+    background-color: #f8f9fa; 
+    line-height: 1.6; 
+    padding-bottom: 100px; /* Ensure space for footer */
+}
+
+.display-3 {
+    font-size: 3.5rem;
+    color: #003366 !important; /* Deep Blue for headings */
+    font-weight: 700;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.lead {
+    color: #6C757D !important; /* Warm Gray for subheadings */
+    font-size: 1.25rem; 
+    margin-bottom: 30px; 
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    background-color: #fff; 
+    text-decoration: none; /* Remove underline from links */
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    transition: transform 0.3s ease; /* Transition for zoom effect */
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.1); /* Slight zoom effect */
+}
+
+.card-body {
+    padding: 20px;
+    text-align: center; 
+}
+
+.card-title {
+    font-size: 1.75rem; 
+    color: #003366 !important; /* Deep Blue for card titles */
+    font-weight: 500; 
+    margin-bottom: 15px; 
+}
+
+.card-text {
+    font-size: 1.1rem; 
+    color: #2F4F4F !important; /* Slate Gray for card text */
+    margin-bottom: 20px; 
+}
+
+/* Center the cards in the row */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the cards within the row */
+}
+
+.col-md-4 {
+    display: flex;
+    justify-content: center; /* Center each card in its column */
+    margin-bottom: 30px; /* Add bottom margin to ensure spacing between rows */
+}
+
+a {
+    text-decoration: none; /* Remove underline from all links */
+}
+
+a:hover {
+    text-decoration: none; /* Ensure no underline on hover */
+}
+
+@media (max-width: 768px) {
+    .display-3 {
+        font-size: 2.5rem;
+    }
+    .lead {
+        font-size: 1.1rem;
+    }
+    .card-title {
+        font-size: 1.5rem;
+    }
+    .card-text {
+        font-size: 1rem;
+    }
+}
+
+.footer {
+    background-color: #fff;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    text-align: center; /* Center text and icons */
+}
+
+.footer .social-icon {
+    margin: 0 15px; /* Added margin for spacing */
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.footer .social-icon:hover {
+    color: #FF9900; /* Hover color */
+}
+
+.footer i {
+    vertical-align: middle;
+}
